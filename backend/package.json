@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node.js project for scraping Amazon product listings using Express, Axios, and JSDOM",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Emanuelle Bavaresco",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsdom": "^24.1.0"
+  }
+}
